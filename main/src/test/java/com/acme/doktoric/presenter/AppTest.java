@@ -1,4 +1,4 @@
-package com.acme.doktoric.presenter.app;
+package com.acme.doktoric.presenter;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

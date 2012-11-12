@@ -8,9 +8,9 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <groupId>com.acme.doktoric.presenter</groupId>
-  <artifactId>presentermanager</artifactId>
+  <artifactId>main</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>presentermanager</name>
+  <name>main</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -22,10 +22,8 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-
-
-
-
+    
+    
     <dependency>
     	<groupId>com.acme.doktoric.presenter</groupId>
     	<artifactId>logger</artifactId>
