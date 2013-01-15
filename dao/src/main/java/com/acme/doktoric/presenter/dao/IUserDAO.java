@@ -1,5 +1,7 @@
 package com.acme.doktoric.presenter.dao;
 
-public interface IUserDAO {
+import com.acme.doktoric.presenter.domain.User;
+
+public interface IUserDAO extends IAbstractJpaDAO<User>  {
 
 }

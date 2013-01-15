@@ -1,6 +1,8 @@
 package com.acme.doktoric.presenter.dao;
 
-public interface IGroupDAO {
+import com.acme.doktoric.presenter.domain.UserGroup;
+
+public interface IGroupDAO extends IAbstractJpaDAO<UserGroup> {
 
 	
 	

@@ -1,5 +1,7 @@
 package com.acme.doktoric.presenter.dao;
 
-public interface IPresentationDAO {
+import com.acme.doktoric.presenter.domain.Presentation;
+
+public interface IPresentationDAO extends IAbstractJpaDAO<Presentation> {
 
 }
